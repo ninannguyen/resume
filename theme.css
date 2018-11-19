@@ -1,0 +1,43 @@
+p, h3, ul{
+    width: 40%;
+    height: 100%;
+    padding: 10px;
+    border: none;
+    margin: 0px;
+    flex-wrap: wrap;
+}
+h1{font-size: 24px;
+}
+p, li{    font-size: 12px;
+}
+h3{   background: rgb(166, 196, 252);
+    font-size: 16px;
+}
+p{    background: rgb(202, 219, 250);
+}
+ul{   background: rgb(217, 228, 248);
+    list-style-type: none;
+}
+/* DOESNT DO ANYTHING */
+::backdrop{
+    background-color: rgb(217, 228, 248);
+}
+.mini{font-size: 14px;}
+.group{
+    display: flex;
+    flex-direction: column;
+}
+/* CODING BELOW DOES NOT APPEAR TO FORMAT ANYTHING, THEY ARE TRIALS */
+.other{
+    flex:3;
+    order:1;
+}
+.work{
+    flex:3;
+    order: 2;
+    flex-direction: row;
+}
+#img{
+    justify-content: center;
+    margin: 50px;
+}
